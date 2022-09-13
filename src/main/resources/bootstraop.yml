@@ -1,0 +1,17 @@
+resilience4j.circuitbreaker:
+  instances:
+    AccountsCB:
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 3
+      slidingWindowType: TIME_BASED
+      minimumNumberOfCalls: 20
+      waitDurationInOpenState: 50s
+      failureRateThreshold: 50
+      eventConsumerBufferSize: 10
+
+resilience4j.timelimiter:
+  instances:
+
+    AccountsCB:
+      timeoutDuration: 2s
+      cancelRunningFuture: true

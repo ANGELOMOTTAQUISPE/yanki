@@ -1,0 +1,13 @@
+yanki\config\events\EventType.class
+yanki\config\RedisConfig.class
+yanki\config\KafkaProducerConfig.class
+yanki\model\TypeClient.class
+yanki\model\Client.class
+yanki\config\events\SavingClientCreatedEvent.class
+yanki\controller\KafkaController.class
+yanki\YankiApplication.class
+yanki\service\SavingClientEvent.class
+yanki\service\KafkaStringProducer.class
+yanki\model\TypeClient$TypeClientBuilder.class
+yanki\model\Client$ClientBuilder.class
+yanki\config\events\Event.class
